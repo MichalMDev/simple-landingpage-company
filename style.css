@@ -52,10 +52,11 @@ header h1 {
     width: 100%;
     }
 .nav a {
-    display: block;
+        display: block;
    color: white;
     text-decoration: none;
     text-align: center;
+    transition-duration: 0.4s;
 }
 .nav a:hover, .nav a:focus {
     background-color: #73695D; 
@@ -63,7 +64,8 @@ header h1 {
 .section {
     padding: 50px 0;
     text-align:justify;
-}
+    }
+
 .section:nth-of-type(even) {
     background: #C8C0B3;
     color: white;
@@ -71,28 +73,45 @@ header h1 {
 .section *:not(:first-child) {
     margin-top: 15px;
 }
+
+#contactLeft{
+    float: left;
+    
+}
 input, textarea {
-    font-size: 18px;
+    font-size: 15px;
     width: 200px;
     height: 40px;
     padding: 5px;
     border-radius:10px; /* dodajemy zaokraglone rogi */
-	text-align: justify;
+	    box-shadow: 10px 10px 8px #888888;
+     
+}
+input:focus, textarea:focus {
+  border: 3px solid #AE7751;
      
 }
 #submitButton {
-    margin-left: 35%;
-    background-color: #AE7751;
+    
+     background-color: #AE7751;
+    border: none;
     color: white;
+    text-align: center;
     cursor: pointer;
+    transition-duration: 0.4s;
+    box-shadow: none;
+    margin-left: 120px;
+        
 }
+
 #submitButton:hover {
     background-color: #73695D;
+    box-shadow: 10px 10px 8px #888888;
     }
 #form {
     display: inline-block;
      text-align: left;
-    float: left;
+/*    float: left;*/
     margin-right: 80px;
     }
 #contactInfo {
@@ -112,17 +131,19 @@ input, textarea {
     margin-bottom: 20px;
      }
 iframe {
-    margin-right: 15px;
+/*    margin-right: 15px;*/
     display: inline-block;
 }
 
 @media screen and (max-width: 952px) {
+      #contactLeft {
+        float: none;
+    }
     #form {
-       float: none;
-        margin-left: 25%;
-        margin-right: 0px;
-
-        }
+        margin: 0 auto;
+        
+    }
+  
     .box {
     display: inline-block;
      width: 100%;
@@ -130,14 +151,6 @@ iframe {
      margin-right: 0px;
         }
 }
-@media screen and (max-width: 952px) {
-    #form {
-       float: none;
-        margin-left: 25%;
-        margin-right: 0px;
-
-    }}
-    
 footer {
    clear: both;
     height: 40px;
