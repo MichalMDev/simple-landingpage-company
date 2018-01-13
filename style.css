@@ -1,0 +1,111 @@
+* {
+    margin:0 ; 
+    padding: 0;/*margines dol-ora,lewo,prawo. Pozbywanie sie odleglosci miedzy obiektami*/
+        font-family: Oswald&amp, arial;
+        box-sizing: border-box; /*responsywnossc boxow*/
+}
+    
+body {
+    color: black;
+    font: 18px 'Oswald', Arial, Sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.container h1 {
+    margin-bottom: 10px;
+}
+.header {
+    color: white;
+    background: url(pliki/andrew-neel-308138.jpg) no-repeat center/cover ;
+    min-height: 100vh;
+    padding-top: 250px;
+        padding-bottom: 250px;
+    text-transform: uppercase;
+    text-align: right;
+/*       text-shadow: 0px 5px 5px #ff9933; */
+      text-shadow: 5px 5px 5px #000;
+}
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+     background-color: #AE7751;
+    line-height: 70px;
+}
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav li {
+    width: 100%;
+    }
+.nav a {
+    display: block;
+   color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.nav a:hover, .nav a:focus {
+    background-color: #73695D; 
+ }
+.section {
+    padding: 50px 0;
+    text-align:justify;
+}
+.section:nth-of-type(even) {
+    background: #C8C0B3;
+    color: white;
+}
+.section *:not(:first-child) {
+    margin-top: 15px;
+}
+input, textarea {
+    font-size: 18px;
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+    border-radius:10px; /* dodajemy zaokraglone rogi */
+	text-align: justify;
+     
+}
+#submitButton {
+    margin-left: 100px;
+    background-color: #D89256;
+    color: white;
+    cursor: pointer;
+}
+#submitButton:hover {
+    background-color: #73695D;
+    }
+#form {
+    display: block;
+     text-align: left;
+    }
+.box {
+display: flex;
+justify-content: center;
+
+}
+#adress {
+     margin-top: 40px;
+     text-align: center;
+     
+
+}
+footer {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
