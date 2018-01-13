@@ -81,7 +81,7 @@ input, textarea {
      
 }
 #submitButton {
-    margin-left: 100px;
+    margin-left: 35%;
     background-color: #AE7751;
     color: white;
     cursor: pointer;
@@ -90,31 +90,56 @@ input, textarea {
     background-color: #73695D;
     }
 #form {
-    display: block;
+    display: inline-block;
      text-align: left;
-    }
-.box {
-/*
-display: flex;
-justify-content: center;
-*/
-    display: block;
     float: left;
-    
-margin-top: 40px;
+    margin-right: 80px;
+    }
+#contactInfo {
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: column;
 }
-#adress {
+.box {
+    width: 100%;
      margin-left: 20px;
      margin-right: 20px;
-     margin-top: 40px;
      text-align: center;
-
+}
+#adress {
+    display: block;
+    line-height: 8px;
+    margin-bottom: 20px;
      }
 iframe {
+    margin-right: 15px;
+    display: inline-block;
 }
+
+@media screen and (max-width: 952px) {
+    #form {
+       float: none;
+        margin-left: 25%;
+        margin-right: 0px;
+
+        }
+    .box {
+    display: inline-block;
+     width: 100%;
+     margin-left: 0px;
+     margin-right: 0px;
+        }
+}
+@media screen and (max-width: 952px) {
+    #form {
+       float: none;
+        margin-left: 25%;
+        margin-right: 0px;
+
+    }}
     
 footer {
-    clear: both;
+   clear: both;
     height: 40px;
     line-height: 40px;
     text-align: center;
