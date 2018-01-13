@@ -82,7 +82,7 @@ input, textarea {
 }
 #submitButton {
     margin-left: 100px;
-    background-color: #D89256;
+    background-color: #AE7751;
     color: white;
     cursor: pointer;
 }
@@ -94,17 +94,27 @@ input, textarea {
      text-align: left;
     }
 .box {
+/*
 display: flex;
 justify-content: center;
-
+*/
+    display: block;
+    float: left;
+    
+margin-top: 40px;
 }
 #adress {
+     margin-left: 20px;
+     margin-right: 20px;
      margin-top: 40px;
      text-align: center;
-     
 
+     }
+iframe {
 }
+    
 footer {
+    clear: both;
     height: 40px;
     line-height: 40px;
     text-align: center;
