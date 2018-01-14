@@ -116,8 +116,6 @@ input:focus, textarea:focus {
     cursor: pointer;
     transition-duration: 0.4s;
     box-shadow: none;
-    margin-left: 120px;
-        
 }
 
 #submitButton:hover {
@@ -125,10 +123,8 @@ input:focus, textarea:focus {
     box-shadow: 10px 10px 8px #888888;
     }
 #form {
-    display: block;
-     text-align: left;
-/*    float: left;*/
-    margin-right: 80px;
+     text-align: center;
+     margin-right: 80px;
     }
 #contactInfo {
     display: flex;
