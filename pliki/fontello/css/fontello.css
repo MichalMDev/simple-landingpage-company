@@ -9,16 +9,7 @@
   font-weight: normal;
   font-style: normal;
 }
-/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
-/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
-/*
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: 'fontello';
-    src: url('../font/fontello.svg?47367186#fontello') format('svg');
-  }
-}
-*/
+
  
  [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "fontello";
@@ -60,18 +51,18 @@
 .icon-twitter:before { content: '\f099'; } /* '' */
 
 .icon-github-circled:before { content: '\f09b'; } 
-.icon-github-circled:hover {color: #6e5494; font-size: 20px; transition-duration: 0.2s; } 
+.icon-github-circled:hover {color: #6e5494;  transition-duration: 0.2s; } 
 
 .icon-download-cloud:before { content: '\f0ed'; } /* '' */
 
 .icon-desktop:before { content: '\f108'; } 
 .icon-youtube:before { content:  '\f167'; } 
-.icon-youtube:hover {color: #cc181e; font-size: 20px; transition-duration: 0.2s; }
+.icon-youtube:hover {color: #cc181e;  transition-duration: 0.2s; }
 
 .icon-cubes:before { content: '\f1b3'; } /* '' */
 .icon-chart-line:before { content: '\f201'; } /* '' */
 .icon-handshake-o:before { content: '\f2b5'; } /* '' */
 
 .icon-facebook-squared:before{content: '\f308'; text-decoration: none;} 
-.icon-facebook-squared:hover {color: #3b5998; font-size: 20px; transition-duration: 0.2s; } /* '' */
+.icon-facebook-squared:hover {color: #3b5998; transition-duration: 0.2s; } /* '' */
 .icon-linkedin-squared:before { content: '\f30c'; } /* '' */

@@ -1,8 +1,8 @@
 * {
     margin:0 ; 
-    padding: 0;/*margines dol-ora,lewo,prawo. Pozbywanie sie odleglosci miedzy obiektami*/
+    padding: 0;
         font-family: Oswald&amp, arial;
-        box-sizing: border-box; /*responsywnossc boxow*/
+        box-sizing: border-box;
 }
     
 body {
@@ -23,7 +23,7 @@ body {
 }
 .header {
     color: white;
-    background: url(pliki/andrew-neel-308138.jpg) no-repeat center/cover ;
+    background: url(pliki/andrew-neel-50.jpg) no-repeat center/cover ;
     min-height: 100vh;
     padding-top: 250px;
         padding-bottom: 250px;
@@ -103,8 +103,8 @@ input, textarea {
     width: 200px;
     height: 40px;
     padding: 5px;
-    border-radius:10px; /* dodajemy zaokraglone rogi */
-	    box-shadow: 10px 10px 8px #888888;
+    border-radius:3px;   
+    box-shadow: 6px 6px 6px #888888;
      
 }
 input:focus, textarea:focus {
@@ -124,7 +124,7 @@ input:focus, textarea:focus {
 
 #submitButton:hover {
     background-color: #73695D;
-    box-shadow: 10px 10px 8px #888888;
+    box-shadow: 6px 6px 6px #888888;
     }
 #form {
      text-align: center;
@@ -146,10 +146,7 @@ input:focus, textarea:focus {
     line-height: 8px;
     margin-bottom: 20px;
      }
-iframe {
-/*    margin-right: 15px;*/
-    display: inline-block;
-}
+
 
 @media screen and (max-width: 952px) {
       #contactLeft {
