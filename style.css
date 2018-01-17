@@ -140,6 +140,7 @@ input:focus, textarea:focus {
      margin-left: 20px;
      margin-right: 20px;
      text-align: center;
+    
 }
 #adress {
     display: block;
@@ -153,9 +154,13 @@ input:focus, textarea:focus {
         float: none;
     }
     #form {
+        display: inline-block;
         margin: 0 auto;
         
     }}
+form p {
+/*    text-align: left;*/
+}
   
     .box {
     display: inline-block;
