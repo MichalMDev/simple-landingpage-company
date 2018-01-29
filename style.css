@@ -126,9 +126,9 @@ input:focus, textarea:focus {
     background-color: #73695D;
     box-shadow: 6px 6px 6px #888888;
     }
-#form {
+#form-container {
      text-align: center;
-     margin-right: 80px;
+       margin-right: 50px;
     }
 #contactInfo {
     display: flex;

@@ -14,3 +14,19 @@
 			    }
 			  });
 			});
+
+//var formValidator  = new Validator("form");
+//formValidator.addValidation("name","req","Please enter your Name");
+// formValidator.addValidation("email","req");
+// formValidator.addValidation("email","email");
+// formValidator.addValidation("message","minlen=5","Message schould have minimum 20 signs");
+
+var email = document.getElementById("email");
+
+email.addEventListener("input", function (event) {
+  if (email.validity.typeMismatch) {
+    email.setCustomValidity("Check your email adress");
+  } else {
+    email.setCustomValidity("");
+  }
+});
