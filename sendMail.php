@@ -7,6 +7,8 @@ $subject = 'Simple-Site';
 $message = $_POST['message'];
 
 mail($to, $subject, $message);
+    
+header('Location: https://michalmdev.github.io/simple-site-1-/');
 }
 else {
     echo "bład";

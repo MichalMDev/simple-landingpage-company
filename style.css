@@ -1,8 +1,8 @@
 * {
     margin:0 ; 
     padding: 0;
-        font-family: Oswald&amp, arial;
-        box-sizing: border-box;
+    font-family: Oswald&amp, arial;
+    box-sizing: border-box;
 }
     
 body {
@@ -35,6 +35,31 @@ body {
 header h1 {
     font-size: 2.5em;
     margin-bottom: 20px;
+}
+#arrow {
+	width: 64px;
+	height: 64px;
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+	font-size: 32px;
+	text-align: center;
+    transform: translateX(-50%);
+	border: 3px solid black;
+	border-radius: 50%;
+    text-shadow: none;
+	transition: 1s ease;
+    cursor: pointer;
+    
+}
+	#arrow a, #arrow a:visited {
+                text-decoration: none;
+        color: black;
+}
+
+#arrow:hover {
+    color: #AE7751;
+    text-shadow: 0 -15px 0 #73695D, 0 15px 0 #73695D;
 }
 
 .nav {
