@@ -52,8 +52,8 @@ header h1 {
     cursor: pointer;
     
 }
-	#arrow a, #arrow a:visited {
-                text-decoration: none;
+	header a, header a:visited {
+        text-decoration: none;
         color: black;
 }
 
@@ -183,24 +183,20 @@ input:focus, textarea:focus {
         margin: 0 auto;
         
     }}
-form p {
-/*    text-align: left;*/
-}
-  
-    .box {
-    display: inline-block;
+
+  .box {
+     display: inline-block;
      width: 100%;
      margin-left: 0px;
      margin-right: 0px;
-        }
+ }
 
 footer {
-       height: 40px;
+    height: 40px;
     line-height: 40px;
     text-align: center;
-   }
+}
 footer a {
-         color: inherit;
- 
-     text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
